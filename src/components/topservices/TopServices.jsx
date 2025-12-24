@@ -3,6 +3,7 @@ import styles from "./topservices.module.css";
 import camp1 from "../../assets/images/5.jpeg";
 import camp2 from "../../assets/images/lakesidecamping.jpg";
 import camp3 from "../../assets/images/watersports.jpg";
+import camp4 from "../../assets/images/boating.jpg"; // add boating image
 
 const TopServices = () => {
   const packages = [
@@ -21,6 +22,11 @@ const TopServices = () => {
       price: "Fun-filled water games and outdoor activities",
       image: camp3,
     },
+    {
+      title: "Boating Experience",
+      price: "Peaceful boating in calm lake waters",
+      image: camp4,
+    },
   ];
 
   return (
@@ -28,7 +34,7 @@ const TopServices = () => {
       <div className={styles.campsiteHeader}>
         <h2 className={styles.campsiteTitle}>Our Main Attractions</h2>
         <p className={styles.campsiteSubtitle}>
-          Camping, lakeside dining, and water activities you’ll love.
+          Camping, lakeside dining, water activities & boating you’ll love.
         </p>
       </div>
 
@@ -45,7 +51,6 @@ const TopServices = () => {
 
             <div className={styles.campsiteContent}>
               <h3 className={styles.campsitePackageTitle}>{pkg.title}</h3>
-              {/* <button className={styles.bookNowBtn}>Explore</button> */}
             </div>
           </div>
         ))}
