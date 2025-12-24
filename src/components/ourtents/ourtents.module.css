@@ -1,0 +1,128 @@
+.tentsSection {
+    padding: 50px 20px;
+    background-color: #f7f9f8;
+    text-align: center;
+    font-family: 'Figtree';
+}
+
+.tentsHeader {
+    max-width: 800px;
+    margin: 0 auto 50px;
+}
+
+.tentsTitle {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Figtree';
+    color: #1e3a34;
+    margin-bottom: 15px;
+}
+
+.tentsSubtitle {
+    font-size: 18px;
+    color: #4b5c57;
+}
+
+.tentsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.tentCard {
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tentCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.tentImageWrapper {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.tentImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.tentCard:hover .tentImage {
+    transform: scale(1.05);
+}
+
+.tentContent {
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tentName {
+    font-size: 22px;
+    font-weight: 600;
+    color: #1e3a34;
+    margin-bottom: 10px;
+}
+
+.tentDescription {
+    font-size: 16px;
+    color: #4b5c57;
+    flex-grow: 1;
+}
+.callBooking {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #267444ff;
+    font-family: 'Figtree';
+}
+.bookNowBtn {
+    margin-top: 15px;
+    background-color: #267444ff;
+    color: #ffffff;
+    font-family: 'Figtree';
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.bookNowBtn:hover {
+    background-color: #1da851;
+}
+
+
+.callBtn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #267444ff;
+  border: 2px solid #267444ff;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.callBtn:hover {
+  background-color: #267444ff;
+  color: #ffffff;
+}

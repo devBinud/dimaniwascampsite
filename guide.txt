@@ -1,0 +1,13 @@
+Footer Section = Done
+Contact Us = Done - Map added as Didung RazI Umrangso
+
+Lets work on Navbar Now 
+
+It has going to be change , I will add a new links called - Campsite Location Instead of Bird Eye View
+
+Logo Done
+Added it 
+
+Favicon Done
+
+Book Now Button

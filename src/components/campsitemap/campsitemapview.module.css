@@ -1,0 +1,33 @@
+.mapSection {
+  padding: 50px 20px;
+  background-color: #f0f6f5;
+  text-align: center;
+  font-family: 'Figtree';
+}
+
+.mapHeader {
+  max-width: 800px;
+  margin: 0 auto 40px;
+}
+
+.mapTitle {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1e3a34;
+  margin-bottom: 15px;
+}
+
+.mapDescription {
+  font-size: 18px;
+  color: #4b5c57;
+  line-height: 1.6;
+}
+
+.mapWrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
