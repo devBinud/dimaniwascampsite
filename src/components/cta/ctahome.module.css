@@ -2,7 +2,7 @@
   background-image: url('../../assets/images/6.jpeg');
   /* 🔁 Replace with your image path */
   background-size: cover;
-  background-position: center;
+  background-position: bottom center;
   background-repeat: no-repeat;
   color: white!important;
   padding: 60px 30px;
