@@ -74,7 +74,7 @@ const Contact = () => {
             Chat directly with our campsite experts for quick queries or to
             customize your stay plan.
             <br />
-            <strong style={{ color: '#002d39' }}>+91 9365484564 / +91 9435851141</strong>
+            <strong style={{ color: '#002d39' }}>+91 9365484564 / +91 8011602251</strong>
             <br />
             <span style={{ fontStyle: 'italic' }}>
               (Mon–Sat: 9 AM – 7 PM / Sunday: 10 AM – 3 PM)
