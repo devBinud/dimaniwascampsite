@@ -25,45 +25,42 @@ const PublicHome = () => {
       <FAQs />
       <ContactUs />
 
-      {/* Floating WhatsApp Button */}
+      {/* Floating WhatsApp Button with Tent Emoji */}
       <a
-        href="https://wa.me/918638220836"
+        href="https://wa.me/918011602251?text=🏕️%20I%20am%20visiting%20the%20Dimaniwas%20Campsite%20via%20your%20website%20and%20interested%20to%20book%20a%20tent,%20could%20you%20connect%20with%20me%3F"
         className="whatsapp-float"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img
-          src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
-          alt="WhatsApp Chat"
-          className="whatsapp-icon"
-        />
+        <span className="whatsapp-emoji">🏕️</span>
       </a>
 
       <style>{`
-  .whatsapp-float {
-    position: fixed;
-    width: 60px;
-    height: 60px;
-    bottom: 20px;
-    right: 20px;
-    background-color: #25d366;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-    z-index: 1000;
-    transition: transform 0.2s ease, background 0.3s ease;
-  }
-  .whatsapp-float:hover {
-    background-color: #2fb866ff;
-  }
-  .whatsapp-icon {
-    width: 35px;
-    height: 35px;
-  }
-`}</style>
-
+        .whatsapp-float {
+          position: fixed;
+          width: 60px;
+          height: 60px;
+          bottom: 20px;
+          right: 20px;
+          background-color: #25d366;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+          z-index: 1000;
+          font-size: 28px;
+          transition: transform 0.2s ease, background 0.3s ease;
+          cursor: pointer;
+        }
+        .whatsapp-float:hover {
+          background-color: #2fb866ff;
+        }
+        .whatsapp-emoji {
+          display: inline-block;
+          line-height: 1;
+        }
+      `}</style>
 
     </div>
   );
