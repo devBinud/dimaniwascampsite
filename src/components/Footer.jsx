@@ -53,14 +53,14 @@ const Footer = () => {
             </div>
             <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
               <FaPhoneAlt style={{ color: '#fff' }} />
-              <a href="tel:+919435851141" style={{ color: '#f1f8e9', fontFamily: 'Figtree', textDecoration: 'none' }}>
-                +91 9435851141
+              <a href="tel:+918011602251" style={{ color: '#f1f8e9', fontFamily: 'Figtree', textDecoration: 'none' }}>
+                +91 8011602251
               </a>
             </div>
             <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
               <FaEnvelope style={{ color: '#fff' }} />
-              <a href="mailto:info@naturalcampsite.com" style={{ color: '#f1f8e9', fontFamily: 'Figtree', textDecoration: 'none' }}>
-                info@dimaniwascampsite.com
+              <a href="mailto:info@naturalcampsite.in" style={{ color: '#f1f8e9', fontFamily: 'Figtree', textDecoration: 'none' }}>
+                info@dimaniwascampsite.in
               </a>
             </div>
           </div>
