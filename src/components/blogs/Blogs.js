@@ -1,11 +1,11 @@
 import React from "react";
 import styles from "./campsiteShowcase.module.css";
-import singleTent from "../../assets/images/1.jpeg";
-import doubleTent from "../../assets/images/7.jpeg";
+import singleTent from "../../assets/images/6.jpeg";
+import doubleTent from "../../assets/images/4.jpeg";
 import familyTent from "../../assets/images/family.jpeg";
 
 const CampsiteShowcase = () => {
-  const whatsappNumber = "919435851141"; // WhatsApp number
+  const whatsappNumber = "918011602251"; // WhatsApp number
 
   const packages = [
     {
@@ -17,13 +17,13 @@ const CampsiteShowcase = () => {
     {
       title: "Double Tent",
       description: "Comfortable tent for 2 people, ideal for couples.",
-      price: "₹1,899 / day",
+      price: "₹1,499 / day",
       image: doubleTent,
     },
     {
       title: "Family Tent",
       description: "Spacious tent for the whole family, includes extra amenities.",
-      price: "₹2,699 / day",
+      price: "₹2,999 / day",
       image: familyTent,
     },
   ];
