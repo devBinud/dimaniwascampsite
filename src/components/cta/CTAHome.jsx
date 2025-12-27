@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./ctahome.module.css";
 
 const CTAHome = () => {
-  const phoneNumber = "+919435851141"; // your phone number
+  const phoneNumber = "+918011602251"; // your phone number
 
   return (
     <div className={styles.ctaSection}>
