@@ -42,7 +42,7 @@ const OurTents = () => {
               <p className={styles.tentDescription}>{tent.description}</p>
 
               {/* Call Button */}
-              <a href="tel:9435851141" className={styles.callBtn}>
+              <a href="tel:8011602251" className={styles.callBtn}>
                 Call for Booking
               </a>
             </div>
